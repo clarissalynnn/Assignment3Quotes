@@ -51,7 +51,7 @@ private TextView text1;
                             text1.setText(quotesField);
                         }
                     }
-                    //if failed, the text field will display hrowable message
+                    //if failed, the text field will display throwable message
                     @Override
                     public void onFailure(Call<QuotesResponse> call, Throwable t) {
                         text1.setText(t.getMessage());
